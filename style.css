@@ -1,0 +1,120 @@
+body{
+    background-color: #696969;
+    padding: 0;
+    margin: 0;
+}
+.ring{
+    background-color: #bababa;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.3),
+    10px 10px 15px rgba(70,70,70,0.15),
+    inset -10px -10px 15px rgba(255,255,255,0.3),
+    inset 10px 10px 15px rgba(70,70,70,0.15);
+    border: 10px solid #b1afaf;
+    border-radius: 100%;
+}
+.ring6{
+    height: 20px;
+    width: 20px;
+    animation: glow6 2.5s infinite;
+}
+@keyframes glow6{
+    0%{
+        background-color: #afafaf;
+    }
+    20%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+.ring5{
+    height: 10px;
+    width: 10px;
+    animation: glow5 2.5s infinite;
+}
+@keyframes glow5{
+    0%{
+        background-color: #afafaf;
+    }
+    20%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+.ring4{
+    height: 30px;
+    width: 30px;
+    animation: glow4 2.5s infinite;
+}
+@keyframes glow4{
+    0%{
+        background-color: #afafaf;
+    }
+    20%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+
+.ring3{
+    height: 120px;
+    width: 120px;
+    animation: glow3 2.5s infinite;
+}
+@keyframes glow3{
+    20%{
+        background-color: #696969;
+    }
+    40%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+
+.ring2{
+    height: 200px;
+    width: 200px;
+    animation: glow2 2.5s infinite;
+}
+@keyframes glow2{
+    40%{
+        background-color: #696969;
+    }
+    60%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
+
+.ring1{
+    height: 280px;
+    width: 280px;
+    animation: glow1 2.5s infinite;
+}
+@keyframes glow1{
+    60%{
+        background-color: #696969;
+    }
+    80%{
+        background-color: #ffad00;
+    }
+    100%{
+        background-color: #ffad00;
+    }
+}
